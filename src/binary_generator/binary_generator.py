@@ -4,7 +4,7 @@ import random
 
 def binary_generator(n):
     p = ''
-    for i in range(p):
+    for i in range(n):
         temp = str(random.randint(0, 1))
 
         # Concatenation the random 0, 1
@@ -16,7 +16,7 @@ def binary_generator(n):
     return p
 
 
-ex = 7
-example = binary_generator(ex)
-
-print(f'Here is the random number: {example}')
+if __name__ == '__main__':
+    ex = 7
+    example = binary_generator(ex)
+    print(f'Here is the random number: {example}')
