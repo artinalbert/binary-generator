@@ -1,8 +1,22 @@
-package = []
+[[package]]
+name = "number-lib"
+version = "0.1.0"
+description = ""
+category = "main"
+optional = false
+python-versions = "^3.10"
+develop = false
+
+[package.source]
+type = "git"
+url = "https://github.com/artinalbert/number-lib.git"
+reference = "main"
+resolved_reference = "a4e40e4a9efb6b1e598e975bfff099a4a60366a1"
 
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.10"
-content-hash = "17ca553b0bb9298a6ed528dd21e544ca433179192dba32a9920168e1c199d74f"
+content-hash = "3f5e80f625cefbe0b2a2378a810badfb9d448a7f5ea57e15484ee8e188232423"
 
 [metadata.files]
+number-lib = []
